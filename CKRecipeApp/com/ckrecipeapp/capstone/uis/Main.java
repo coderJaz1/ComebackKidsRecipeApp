@@ -3,7 +3,6 @@
  */
 package com.ckrecipeapp.capstone.uis;
 
-//import com.ckrecipeapp.capstone.uis.view.RecipeViews;
 
 /**
  * @author jaz79
@@ -19,6 +18,6 @@ public class Main {
 		// Chris added this comment
 
 		System.out.println("Hello World");
+		
 	}
-
 }
