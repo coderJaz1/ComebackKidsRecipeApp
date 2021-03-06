@@ -1,31 +1,13 @@
 package com.ckrecipeapp.capstone.uis.view;
 
-import com.ckrecipeapp.capstone.uis.*;
-import com.jgoodies.forms.layout.ColumnSpec;
-import com.jgoodies.forms.layout.FormLayout;
-import com.jgoodies.forms.layout.FormSpecs;
-import com.jgoodies.forms.layout.RowSpec;
-
 import java.awt.Dimension;
 import java.awt.EventQueue;
 import java.awt.Label;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Scanner;
-
 import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JList;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
-import javax.swing.JTextField;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.JSpinner;
-
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 
 public class RecipeViews {
 
@@ -103,13 +85,11 @@ public class RecipeViews {
 
 	}
 
-	private JPanel makeRecipePanel(String text) {
-		// TODO Auto-generated method stub
-		JPanel p = new JPanel();
-		text = "test2";
-		p.add(new Label(text));
-		return p;
-	}
+	/*
+	 * private JPanel makeRecipePanel(String text) { // TODO Auto-generated method
+	 * stub JPanel p = new JPanel(); text = "test2"; p.add(new Label(text)); return
+	 * p; }
+	 */
 
 	private JPanel makeCreatePanel(String text) {
 		// TODO Auto-generated method stub

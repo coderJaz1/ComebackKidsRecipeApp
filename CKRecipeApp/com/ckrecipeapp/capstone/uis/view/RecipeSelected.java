@@ -1,21 +1,16 @@
 package com.ckrecipeapp.capstone.uis.view;
 
 import javax.swing.JPanel;
-import java.awt.GridBagLayout;
 import javax.swing.JTextField;
-import java.awt.GridBagConstraints;
 import javax.swing.JLabel;
-import javax.swing.JTable;
-import java.awt.Insets;
 import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.forms.layout.ColumnSpec;
 import com.jgoodies.forms.layout.RowSpec;
 import com.jgoodies.forms.layout.FormSpecs;
-import javax.swing.JFormattedTextField;
-import javax.swing.JTextPane;
 import javax.swing.JList;
 import javax.swing.JSpinner;
 
+@SuppressWarnings("serial")
 public class RecipeSelected extends JPanel {
 	private JTextField txtPrepTime;
 	private JTextField txtBakeTime;
