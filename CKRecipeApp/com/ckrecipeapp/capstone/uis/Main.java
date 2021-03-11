@@ -3,6 +3,9 @@
  */
 package com.ckrecipeapp.capstone.uis;
 
+import javax.swing.SwingUtilities;
+
+import com.ckrecipeapp.capstone.uis.view.*;
 
 /**
  * @author jaz79
@@ -16,8 +19,16 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Chris added this comment
-
-		System.out.println("Hello World");
 		
-	}
+		SwingUtilities.invokeLater(new Runnable() {
+
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				new RecipeJFrame().viewRecipe();
+				//new RecipeJFrame();
+			}
+					
+	});
+}
 }
