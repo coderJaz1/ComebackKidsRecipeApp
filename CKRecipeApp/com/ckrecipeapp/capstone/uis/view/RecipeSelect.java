@@ -8,6 +8,7 @@ import javax.swing.JTextField;
 
 import javax.swing.SwingConstants;
 import javax.swing.JButton;
+import javax.swing.JTable;
 
 public class RecipeSelect extends JPanel {
 	private JTextField txtTitle;
@@ -30,6 +31,7 @@ public class RecipeSelect extends JPanel {
 	 * 
 	 */
 	private static final long serialVersionUID = -57614462823056014L;
+	private JTable table;
 	
 	/**
 	 * Create the panel.  This is the main recipe panel view.
@@ -124,6 +126,10 @@ public class RecipeSelect extends JPanel {
 		btnCancel.setBounds(410, 590, 90, 25);
 		btnCancel.setVisible(editOn);
 		add(btnCancel);
+		
+		table = new JTable();
+		table.setBounds(134, 404, 1, 1);
+		add(table);
 		
 		
 
