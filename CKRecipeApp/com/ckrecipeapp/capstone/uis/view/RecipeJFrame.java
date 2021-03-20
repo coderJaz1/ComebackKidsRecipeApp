@@ -22,7 +22,6 @@ import java.awt.Insets;
 public class RecipeJFrame extends JFrame {
 
 	private RecipeSelect rs;
-	private RecipeTabbedView rtv;
 	private CardLayout cl;
 
 		
@@ -76,11 +75,7 @@ public class RecipeJFrame extends JFrame {
 		//getContentPane().add(rs);
 	}
 
-	public void tabbedView() {
-		this.rtv = new RecipeTabbedView();
-		//getContentPane().add(rtv);
-		
-	}
+
 	
 	public void buttonPanel() {
 		JPanel panel = new JPanel();

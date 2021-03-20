@@ -26,7 +26,7 @@ public class Main {
 			@Override
 			public void run() {
 				// TODO Auto-generated method stub
-				//new RecipeJFrame().viewRecipe();
+				new RecipeJFrame().viewRecipe();
 				
 				//j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				//j.setVisible(true);
